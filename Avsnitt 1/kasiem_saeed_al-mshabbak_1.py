@@ -3,14 +3,14 @@
 # 2024-01-19
 # DD100N
 
-SURENAME = "Kasiem"
+SURNAME = "Kasiem"
 LASTNAME = "Saeed"
 
 counter = 0
-for letter in SURENAME:
+for letter in SURNAME:
     counter += 1  # Increments by 1 for each character in the string
 
-lettersInSurename = counter
+lettersInSurname = counter
 
 counter = 0  # Resetting counter
 for letter in LASTNAME:
@@ -18,10 +18,10 @@ for letter in LASTNAME:
 
 lettersInLastname = counter
 
-totalLettersInName = lettersInSurename + lettersInLastname
+totalLettersInName = lettersInSurname + lettersInLastname
 
 print(
-    "Hello!\nMy name is " + SURENAME,
+    "Hello!\nMy name is " + SURNAME,
     LASTNAME + ". There are",
     totalLettersInName,
     "Letters in my name.",

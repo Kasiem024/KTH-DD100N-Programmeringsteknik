@@ -10,7 +10,7 @@ userChoice = 0
 while userChoice != 5:
     userChoice = int(
         input(
-            "Choose on of the following options:\n "
+            "Choose one of the following options:\n "
             "1. Degrees in Celsius to degrees in Fahrenheit\n "
             "2. Distance in meters to distance in american miles\n "
             "3. Volume in liters to volume in gallons\n "

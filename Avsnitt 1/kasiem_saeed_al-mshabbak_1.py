@@ -28,8 +28,8 @@ print(
 )
 
 age = 21.8
-DAYSINYEAR = 365
-ageInDays = age * DAYSINYEAR
+DAYS_IN_YEAR = 365
+ageInDays = age * DAYS_IN_YEAR
 
 print(
     "I am",
